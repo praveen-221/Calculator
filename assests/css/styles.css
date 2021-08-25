@@ -9,7 +9,7 @@
 
 body {
     /*background: rgb(255, 226, 218);*/
-    background: url(./images/background.jpg);
+    background: url("../../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(66, 66, 66);
@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 400px;
+    width: 380px;
     background: #ffe6b3;
     border-radius: 25px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
@@ -35,9 +35,10 @@ table {
 td {
     font-size: 2em;
     padding: 0.7em;
+    width: 25%;
     text-align: center;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 25px;
     transition: 0.2s;
 }
 
@@ -76,5 +77,6 @@ input {
 
 .equal-btn {
     background-color: rgba(15, 153, 88, 0.836);
-    border-radius: 100px;
+    border-radius: 30px;
+    border-bottom-right-radius: 25px;
 }
